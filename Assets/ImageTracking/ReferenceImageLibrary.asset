@@ -1,0 +1,539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5302112778301530755
+  m_GuidHigh: 17964245607849607863
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4835812798533132636
+      m_GuidHigh: 11694501206488039099
+    m_SerializedTextureGuid:
+      m_GuidLow: 4921770909166238166
+      m_GuidHigh: 10450948081149919929
+    m_Size: {x: 0.06, y: 0.07974145}
+    m_SpecifySize: 1
+    m_Name: Ace_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4965546120194747172
+      m_GuidHigh: 14318000097621598874
+    m_SerializedTextureGuid:
+      m_GuidLow: 10719891476946795883
+      m_GuidHigh: 14766765193562521034
+    m_Size: {x: 0.06, y: 0.08172369}
+    m_SpecifySize: 1
+    m_Name: Ace_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5534620483042843625
+      m_GuidHigh: 10206878169475047590
+    m_SerializedTextureGuid:
+      m_GuidLow: 295786834240173151
+      m_GuidHigh: 14692994726893536744
+    m_Size: {x: 0.06, y: 0.082032695}
+    m_SpecifySize: 1
+    m_Name: Ace_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4633521083795012643
+      m_GuidHigh: 16784928271300851635
+    m_SerializedTextureGuid:
+      m_GuidLow: 8379578387309464605
+      m_GuidHigh: 5706829329629270139
+    m_Size: {x: 0.06, y: 0.0828534}
+    m_SpecifySize: 1
+    m_Name: Ace_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5546130803892283055
+      m_GuidHigh: 2431862322480186240
+    m_SerializedTextureGuid:
+      m_GuidLow: 15343149892006235410
+      m_GuidHigh: 9039797007390500427
+    m_Size: {x: 0.06, y: 0.078208454}
+    m_SpecifySize: 1
+    m_Name: Two_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5189461032473902131
+      m_GuidHigh: 5795263491802161556
+    m_SerializedTextureGuid:
+      m_GuidLow: 2662997055159899763
+      m_GuidHigh: 8476477580344971113
+    m_Size: {x: 0.06, y: 0.08141924}
+    m_SpecifySize: 1
+    m_Name: Two_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5402956974015476527
+      m_GuidHigh: 17054313923612011451
+    m_SerializedTextureGuid:
+      m_GuidLow: 15314721823236405482
+      m_GuidHigh: 11077022620347085289
+    m_Size: {x: 0.06, y: 0.08274215}
+    m_SpecifySize: 1
+    m_Name: Two_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5525777786706121162
+      m_GuidHigh: 1780457789744322192
+    m_SerializedTextureGuid:
+      m_GuidLow: 1450630173195671919
+      m_GuidHigh: 6802331493286486808
+    m_Size: {x: 0.06, y: 0.08159369}
+    m_SpecifySize: 1
+    m_Name: Two_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5742806446625087631
+      m_GuidHigh: 2684435544735933116
+    m_SerializedTextureGuid:
+      m_GuidLow: 8373446562681973723
+      m_GuidHigh: 10531470051543518587
+    m_Size: {x: 0.06, y: 0.08123235}
+    m_SpecifySize: 1
+    m_Name: Three_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4882394042654230566
+      m_GuidHigh: 8073665993098868408
+    m_SerializedTextureGuid:
+      m_GuidLow: 9560751410029700293
+      m_GuidHigh: 13254472769050991931
+    m_Size: {x: 0.06, y: 0.08127011}
+    m_SpecifySize: 1
+    m_Name: Three_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5345990112572841513
+      m_GuidHigh: 16920619764686416274
+    m_SerializedTextureGuid:
+      m_GuidLow: 1508328584596026996
+      m_GuidHigh: 2471786129916772043
+    m_Size: {x: 0.06, y: 0.08207019}
+    m_SpecifySize: 1
+    m_Name: Three_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5375823286918488638
+      m_GuidHigh: 6726266954592300163
+    m_SerializedTextureGuid:
+      m_GuidLow: 15288311234158457130
+      m_GuidHigh: 7705863814919384234
+    m_Size: {x: 0.06, y: 0.08168865}
+    m_SpecifySize: 1
+    m_Name: Three_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5587011525243895840
+      m_GuidHigh: 11041614349799175102
+    m_SerializedTextureGuid:
+      m_GuidLow: 15300317376706681472
+      m_GuidHigh: 17047053602282264074
+    m_Size: {x: 0.06, y: 0.08127696}
+    m_SpecifySize: 1
+    m_Name: Four_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4730938033212850985
+      m_GuidHigh: 16611463552384853918
+    m_SerializedTextureGuid:
+      m_GuidLow: 15289436234899047930
+      m_GuidHigh: 14944801008290612073
+    m_Size: {x: 0.06, y: 0.08067885}
+    m_SpecifySize: 1
+    m_Name: Four_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5632530376859584145
+      m_GuidHigh: 4281982427258893738
+    m_SerializedTextureGuid:
+      m_GuidLow: 15331837911702642980
+      m_GuidHigh: 7137638905155015945
+    m_Size: {x: 0.06, y: 0.08173456}
+    m_SpecifySize: 1
+    m_Name: Four_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5283218055288933921
+      m_GuidHigh: 8528704091359374988
+    m_SerializedTextureGuid:
+      m_GuidLow: 16443238488085904838
+      m_GuidHigh: 12079532120035595752
+    m_Size: {x: 0.06, y: 0.08159477}
+    m_SpecifySize: 1
+    m_Name: Four_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5693520374373355158
+      m_GuidHigh: 7639273210659921825
+    m_SerializedTextureGuid:
+      m_GuidLow: 6115617683368757583
+      m_GuidHigh: 15121241979019069097
+    m_Size: {x: 0.06, y: 0.08151866}
+    m_SpecifySize: 1
+    m_Name: Five_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5757481613035159287
+      m_GuidHigh: 12991607167162515128
+    m_SerializedTextureGuid:
+      m_GuidLow: 3750029449732825926
+      m_GuidHigh: 2645823028245130889
+    m_Size: {x: 0.06, y: 0.08138201}
+    m_SpecifySize: 1
+    m_Name: Five_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5519146624154683003
+      m_GuidHigh: 5722224162731164604
+    m_SerializedTextureGuid:
+      m_GuidLow: 8418424218070948774
+      m_GuidHigh: 12421282920850023531
+    m_Size: {x: 0.06, y: 0.08242343}
+    m_SpecifySize: 1
+    m_Name: Five_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5760334283353156857
+      m_GuidHigh: 14756497810650617984
+    m_SerializedTextureGuid:
+      m_GuidLow: 328815212344442933
+      m_GuidHigh: 17473578638050227113
+    m_Size: {x: 0.06, y: 0.080812}
+    m_SpecifySize: 1
+    m_Name: Five_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5534417802816598933
+      m_GuidHigh: 15889815263463824552
+    m_SerializedTextureGuid:
+      m_GuidLow: 9558542589210084577
+      m_GuidHigh: 15337008747344226091
+    m_Size: {x: 0.06, y: 0.07989743}
+    m_SpecifySize: 1
+    m_Name: Six_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4992867995531826207
+      m_GuidHigh: 16532437562547017654
+    m_SerializedTextureGuid:
+      m_GuidLow: 1480137148201366784
+      m_GuidHigh: 15269850442821699400
+    m_Size: {x: 0.06, y: 0.0811811}
+    m_SpecifySize: 1
+    m_Name: Six_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5020654629982593165
+      m_GuidHigh: 4941211854739980461
+    m_SerializedTextureGuid:
+      m_GuidLow: 1493607925338226468
+      m_GuidHigh: 12964371472471223963
+    m_Size: {x: 0.06, y: 0.082307346}
+    m_SpecifySize: 1
+    m_Name: Six_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5368888500179065820
+      m_GuidHigh: 2648620231960448413
+    m_SerializedTextureGuid:
+      m_GuidLow: 10684572621654366496
+      m_GuidHigh: 14113852679038816779
+    m_Size: {x: 0.06, y: 0.08256043}
+    m_SpecifySize: 1
+    m_Name: Six_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5531362792498409280
+      m_GuidHigh: 9800698188685215136
+    m_SerializedTextureGuid:
+      m_GuidLow: 3806689479199956234
+      m_GuidHigh: 11692059535811732488
+    m_Size: {x: 0.06, y: 0.08144526}
+    m_SpecifySize: 1
+    m_Name: Seven_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5328595791245653564
+      m_GuidHigh: 17032909293259385761
+    m_SerializedTextureGuid:
+      m_GuidLow: 16445489020892471127
+      m_GuidHigh: 2885771370300322154
+    m_Size: {x: 0.06, y: 0.08281653}
+    m_SpecifySize: 1
+    m_Name: Seven_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4903413099529966336
+      m_GuidHigh: 16670054029949001872
+    m_SerializedTextureGuid:
+      m_GuidLow: 8383135408261330133
+      m_GuidHigh: 5974623639474018219
+    m_Size: {x: 0.06, y: 0.081332736}
+    m_SpecifySize: 1
+    m_Name: Seven_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5461685465346682972
+      m_GuidHigh: 17613432493931746198
+    m_SerializedTextureGuid:
+      m_GuidLow: 2629265564170096842
+      m_GuidHigh: 14496613643370191800
+    m_Size: {x: 0.06, y: 0.08228181}
+    m_SpecifySize: 1
+    m_Name: Seven_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5364470630297315476
+      m_GuidHigh: 18039676340142520760
+    m_SerializedTextureGuid:
+      m_GuidLow: 1469361929461291971
+      m_GuidHigh: 6293467088966417833
+    m_Size: {x: 0.06, y: 0.080378816}
+    m_SpecifySize: 1
+    m_Name: Eight_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4709497627769906106
+      m_GuidHigh: 13026487456829850045
+    m_SerializedTextureGuid:
+      m_GuidLow: 12991881346580757350
+      m_GuidHigh: 5030871840451138825
+    m_Size: {x: 0.06, y: 0.082613334}
+    m_SpecifySize: 1
+    m_Name: Eight_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4903594646125309226
+      m_GuidHigh: 8177226979427119236
+    m_SerializedTextureGuid:
+      m_GuidLow: 12999414150376072657
+      m_GuidHigh: 7943462665525036667
+    m_Size: {x: 0.06, y: 0.08166964}
+    m_SpecifySize: 1
+    m_Name: Eight_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4931980635091851247
+      m_GuidHigh: 18333894814126596031
+    m_SerializedTextureGuid:
+      m_GuidLow: 9551985211938239937
+      m_GuidHigh: 5810287998110453528
+    m_Size: {x: 0.06, y: 0.08213513}
+    m_SpecifySize: 1
+    m_Name: Eight_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5762966819645038617
+      m_GuidHigh: 1571296290191828364
+    m_SerializedTextureGuid:
+      m_GuidLow: 6054228920605267177
+      m_GuidHigh: 11691612623480938891
+    m_Size: {x: 0.06, y: 0.080921054}
+    m_SpecifySize: 1
+    m_Name: Nine_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4955768347525279762
+      m_GuidHigh: 3501053012274478990
+    m_SerializedTextureGuid:
+      m_GuidLow: 16455902233425651982
+      m_GuidHigh: 15203331638819834235
+    m_Size: {x: 0.06, y: 0.08321445}
+    m_SpecifySize: 1
+    m_Name: Nine_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4638654018413973572
+      m_GuidHigh: 17442566496174182293
+    m_SerializedTextureGuid:
+      m_GuidLow: 17620920927545594012
+      m_GuidHigh: 5459201710645661531
+    m_Size: {x: 0.06, y: 0.08100268}
+    m_SpecifySize: 1
+    m_Name: Nine_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5160566304174948445
+      m_GuidHigh: 2401916583605130428
+    m_SerializedTextureGuid:
+      m_GuidLow: 15328410251338260069
+      m_GuidHigh: 7449622574209385434
+    m_Size: {x: 0.06, y: 0.08142857}
+    m_SpecifySize: 1
+    m_Name: Nine_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5564108279640148023
+      m_GuidHigh: 10756079917722093495
+    m_SerializedTextureGuid:
+      m_GuidLow: 2659046196877879032
+      m_GuidHigh: 7387442731755828104
+    m_Size: {x: 0.06, y: 0.08043497}
+    m_SpecifySize: 1
+    m_Name: Ten_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4765388851222614845
+      m_GuidHigh: 6447791630034506649
+    m_SerializedTextureGuid:
+      m_GuidLow: 2633204727523752929
+      m_GuidHigh: 7702445441690203528
+    m_Size: {x: 0.06, y: 0.08087417}
+    m_SpecifySize: 1
+    m_Name: Ten_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4835344069783371722
+      m_GuidHigh: 10935759940656696196
+    m_SerializedTextureGuid:
+      m_GuidLow: 16465416781503078735
+      m_GuidHigh: 7005543055923418970
+    m_Size: {x: 0.06, y: 0.08155738}
+    m_SpecifySize: 1
+    m_Name: Ten_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5516165170429976860
+      m_GuidHigh: 3384924911926539173
+    m_SerializedTextureGuid:
+      m_GuidLow: 17634450690807763478
+      m_GuidHigh: 9920033395667734042
+    m_Size: {x: 0.06, y: 0.08192518}
+    m_SpecifySize: 1
+    m_Name: Ten_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5648473257353441724
+      m_GuidHigh: 13218147687232905147
+    m_SerializedTextureGuid:
+      m_GuidLow: 14175970556171891482
+      m_GuidHigh: 17533783043368958171
+    m_Size: {x: 0.06, y: 0.081203006}
+    m_SpecifySize: 1
+    m_Name: Jack_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5035199122923916000
+      m_GuidHigh: 6730641948713073314
+    m_SerializedTextureGuid:
+      m_GuidLow: 10686161126777590586
+      m_GuidHigh: 10853554665207334824
+    m_Size: {x: 0.06, y: 0.08004384}
+    m_SpecifySize: 1
+    m_Name: Jack_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5661777147837330551
+      m_GuidHigh: 15730756276901028257
+    m_SerializedTextureGuid:
+      m_GuidLow: 2627027621112365552
+      m_GuidHigh: 9825395498914982328
+    m_Size: {x: 0.06, y: 0.08155025}
+    m_SpecifySize: 1
+    m_Name: Jack_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5643063992439599638
+      m_GuidHigh: 11022016717906593964
+    m_SerializedTextureGuid:
+      m_GuidLow: 17591775459872095370
+      m_GuidHigh: 12184310990797697274
+    m_Size: {x: 0.06, y: 0.08046868}
+    m_SpecifySize: 1
+    m_Name: Jack_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4687746817803621079
+      m_GuidHigh: 15833161844316764836
+    m_SerializedTextureGuid:
+      m_GuidLow: 10703111794254877811
+      m_GuidHigh: 5987968360752309306
+    m_Size: {x: 0.06, y: 0.081039645}
+    m_SpecifySize: 1
+    m_Name: Queen_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4838268370208375724
+      m_GuidHigh: 15474807858017472431
+    m_SerializedTextureGuid:
+      m_GuidLow: 7219323399422189817
+      m_GuidHigh: 11797273793302615787
+    m_Size: {x: 0.06, y: 0.079434045}
+    m_SpecifySize: 1
+    m_Name: Queen_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4733513506949993556
+      m_GuidHigh: 11289864366028187053
+    m_SerializedTextureGuid:
+      m_GuidLow: 16465264260071199227
+      m_GuidHigh: 7619798372026511658
+    m_Size: {x: 0.06, y: 0.08010695}
+    m_SpecifySize: 1
+    m_Name: Queen_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5727401220433138480
+      m_GuidHigh: 11799878060666752131
+    m_SerializedTextureGuid:
+      m_GuidLow: 1454318412606413184
+      m_GuidHigh: 12054388959751326089
+    m_Size: {x: 0.06, y: 0.07806109}
+    m_SpecifySize: 1
+    m_Name: Queen_of_Spades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5029749506519847112
+      m_GuidHigh: 10669420782208122510
+    m_SerializedTextureGuid:
+      m_GuidLow: 6067450585856255138
+      m_GuidHigh: 6666523969128729145
+    m_Size: {x: 0.06, y: 0.08089356}
+    m_SpecifySize: 1
+    m_Name: King_of_Clubs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5004790845951718466
+      m_GuidHigh: 3396977538308396728
+    m_SerializedTextureGuid:
+      m_GuidLow: 4915430496089424064
+      m_GuidHigh: 4152804285279324810
+    m_Size: {x: 0.06, y: 0.081167445}
+    m_SpecifySize: 1
+    m_Name: King_of_Diamonds
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5228323730555655745
+      m_GuidHigh: 2360943388271290247
+    m_SerializedTextureGuid:
+      m_GuidLow: 12976324038508118750
+      m_GuidHigh: 15851791358272956553
+    m_Size: {x: 0.06, y: 0.080963194}
+    m_SpecifySize: 1
+    m_Name: King_of_Hearts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5441122327095571786
+      m_GuidHigh: 6180809674459322547
+    m_SerializedTextureGuid:
+      m_GuidLow: 3757754212379373354
+      m_GuidHigh: 225587707646101866
+    m_Size: {x: 0.06, y: 0.08127717}
+    m_SpecifySize: 1
+    m_Name: King_of_Spades
+    m_Texture: {fileID: 0}
