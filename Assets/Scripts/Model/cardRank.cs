@@ -12,5 +12,6 @@ public enum cardRank
     Ten,
     Jack,
     Queen,
-    King
+    King,
+    None
 }

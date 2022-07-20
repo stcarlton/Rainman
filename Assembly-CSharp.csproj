@@ -61,6 +61,10 @@
     <Compile Include="Assets/Scripts/Model/cardSuit.cs" />
     <Compile Include="Assets/Scripts/Model/cardRank.cs" />
     <Compile Include="Assets/Scripts/Controller/ScannedImageText.cs" />
+    <Compile Include="Assets/Scripts/Model/BlackJackHand.cs" />
+    <Compile Include="Assets/Scripts/Model/tactic.cs" />
+    <Compile Include="Assets/Scripts/Model/CardCounter.cs" />
+    <Compile Include="Assets/Scripts/Model/bettingStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
