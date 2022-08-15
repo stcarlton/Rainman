@@ -1,21 +1,14 @@
 ﻿<Properties StartupConfiguration="{C82B3F2C-3979-80EF-9474-044911C3C478}|">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0c163887-e7c2-46e4-a588-36ef5749686c" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="86816ccd-34ef-40cc-bf69-e9103b9c608a" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Model/CardCounter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Model/Card.cs" Line="20" Column="33" />
-      <File FileName="Assets/Scripts/Model/cardRank.cs" Line="5" Column="11" />
-      <File FileName="Assets/Scripts/Model/cardSuit.cs" Line="8" Column="1" />
-      <File FileName="Assets/Scripts/Model/tactic.cs" Line="7" Column="10" />
-      <File FileName="Assets/Scripts/Controller/CardManager.cs" Line="244" Column="42" />
-      <File FileName="Assets/Scripts/Model/BlackJackHand.cs" Line="63" Column="1" />
-      <File FileName="Assets/Scripts/Model/CardCounter.cs" Line="21" Column="6" />
-      <File FileName="Assets/Scripts/Model/bettingStrategy.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/Controller/CardManager.cs" Line="146" Column="6" />
+      <File FileName="Assets/Scripts/Model/BlackJackHand.cs" Line="207" Column="6" />
+      <File FileName="Assets/Scripts/Model/CardCounter.cs" Line="156" Column="1" />
+      <File FileName="Assets/Scripts/Model/tactic.cs" Line="5" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,4 +26,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
