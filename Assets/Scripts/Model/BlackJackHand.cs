@@ -81,8 +81,9 @@ public class BlackJackHand
             return _strategy[keyGenerator(dealerValue, _twins, _soft, _handValue)];
         }
     }
-    void PopulateStrategy()
+    public void PopulateStrategy()
     {
+        _strategy.Clear();
         //i is dealer value
         //j is player value
         //initial setup; 35
@@ -125,26 +126,19 @@ public class BlackJackHand
         //normal hands
         for(int i = 3; i < 7; i++)
         {
-            _strategy[keyGenerator(i,false,false,9)] = tactic.DoubleDown;
+            _strategy[keyGenerator(i,false,false,9)] = tactic.Double;
         }
         for (int i = 2; i < 10; i++)
         {
-            _strategy[keyGenerator(i,false,false,10)] = tactic.DoubleDown;
+            _strategy[keyGenerator(i,false,false,10)] = tactic.Double;
         }
         for(int i = 2; i < 11; i++)
         {
-            _strategy[keyGenerator(i, false, false, 11)] = tactic.DoubleDown;
+            _strategy[keyGenerator(i, false, false, 11)] = tactic.Double;
         }
         for(int i = 4; i < 7; i++)
         {
-            _strategy[keyGenerator(i, false, false, 12)] = tactic.Stand;
-        }
-        for(int i = 2; i < 7; i++)
-        {
-            for(int j = 13; j < 17; j++)
-            {
-                _strategy[keyGenerator(i, false, false, j)] = tactic.Stand;
-            }
+            _strategy[keyGenerator(i, false, false, 13)] = tactic.Stand;
         }
 
         //soft hands
@@ -152,14 +146,14 @@ public class BlackJackHand
         {
             for(int j = 13; j < 15; j++)
             {
-                _strategy[keyGenerator(i, false, true, j)] = tactic.DoubleDown;
+                _strategy[keyGenerator(i, false, true, j)] = tactic.Double;
             }
         }
         for(int i = 4; i < 7; i++)
         {
             for(int j = 15; j < 17; j++)
             {
-                _strategy[keyGenerator(i, false, true, j)] = tactic.DoubleDown;
+                _strategy[keyGenerator(i, false, true, j)] = tactic.Double;
             }
         }
         for(int i = 2; i < 9; i++)
@@ -170,7 +164,7 @@ public class BlackJackHand
         {
             for(int j = 17; j < 19; j++)
             {
-                _strategy[keyGenerator(i, false, true, j)] = tactic.DoubleDown;
+                _strategy[keyGenerator(i, false, true, j)] = tactic.Double;
             }
         }
 
@@ -199,7 +193,7 @@ public class BlackJackHand
         }
         for(int i = 2; i < 10; i++)
         {
-            _strategy[keyGenerator(i, true, false, 10)] = tactic.DoubleDown;
+            _strategy[keyGenerator(i, true, false, 10)] = tactic.Double;
         }
         for(int i = 8; i < 11; i++)
         {
@@ -209,6 +203,85 @@ public class BlackJackHand
         _strategy[keyGenerator(10, true, false, 18)] = tactic.Stand;
         _strategy[keyGenerator(1, true, false, 18)] = tactic.Stand;
     }
+    public void IncNegTwo()
+    {
+        _strategy[keyGenerator(3, false, false, 13)] = tactic.Hit;
+        _strategy[keyGenerator(5, false, false, 12)] = tactic.Hit;
+    }
+    public void IncNegOne()
+    {
+        _strategy[keyGenerator(2, false, false, 13)] = tactic.Hit;
+        _strategy[keyGenerator(6, false, false, 12)] = tactic.Hit;
+    }
+    public void IncZero()
+    {
+        _strategy[keyGenerator(4, false, false, 12)] = tactic.Hit;
+    }
+    public void IncOneFive()
+    {
+        _strategy[keyGenerator(3, false, false, 12)] = tactic.Stand;
+        _strategy[keyGenerator(2, false, false, 9)] = tactic.Double;
+    }
+    public void IncTwo()
+    {
+        _strategy[keyGenerator(1, false, false, 11)] = tactic.Double;
+    }
+    public void IncThree()
+    {
+        _strategy[keyGenerator(2, false, false, 12)] = tactic.Stand;
+    }
+    public void IncFive()
+    {
+        _strategy[keyGenerator(1, false, false, 10)] = tactic.Double;
+        _strategy[keyGenerator(7, false, false, 9)] = tactic.Double;
+        _strategy[keyGenerator(6, true, false, 20)] = tactic.Split;
+        _strategy[keyGenerator(6, true, false, 10)] = tactic.Split;
+    }
+    public void IncSix()
+    {
+        _strategy[keyGenerator(5, true, false, 20)] = tactic.Split;
+        _strategy[keyGenerator(5, true, false, 10)] = tactic.Split;
+    }
+    public void DecNegTwo()
+    {
+        _strategy[keyGenerator(3, false, false, 13)] = tactic.Stand;
+        _strategy[keyGenerator(5, false, false, 12)] = tactic.Stand;
+    }
+    public void DecNegOne()
+    {
+        _strategy[keyGenerator(2, false, false, 13)] = tactic.Stand;
+        _strategy[keyGenerator(6, false, false, 12)] = tactic.Stand;
+    }
+    public void DecZero()
+    {
+        _strategy[keyGenerator(4, false, false, 12)] = tactic.Stand;
+    }
+    public void DecOneFive()
+    {
+        _strategy[keyGenerator(3, false, false, 12)] = tactic.Hit;
+        _strategy[keyGenerator(2, false, false, 9)] = tactic.Hit;
+    }
+    public void DecTwo()
+    {
+        _strategy[keyGenerator(1, false, false, 11)] = tactic.Hit;
+    }
+    public void DecThree()
+    {
+        _strategy[keyGenerator(2, false, false, 12)] = tactic.Hit;
+    }
+    public void DecFive()
+    {
+        _strategy[keyGenerator(1, false, false, 10)] = tactic.Hit;
+        _strategy[keyGenerator(7, false, false, 9)] = tactic.Hit;
+        _strategy[keyGenerator(6, true, false, 20)] = tactic.Stand;
+        _strategy[keyGenerator(6, true, false, 10)] = tactic.Double;
+    }
+    public void DecSix()
+    {
+        _strategy[keyGenerator(5, true, false, 20)] = tactic.Stand;
+        _strategy[keyGenerator(5, true, false, 10)] = tactic.Double;
+    }
+
     int keyGenerator(int dealerValue, bool twins, bool soft, int handValue)
     {
         return dealerValue * 10000 + (twins ? 1000 : 0) + (soft ? 100 : 0) + handValue;

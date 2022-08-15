@@ -2,7 +2,7 @@ public enum tactic
 {
     Stand,
     Hit,
-    DoubleDown,
+    Double,
     Split,
     Bust,
     None

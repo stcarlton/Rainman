@@ -11,7 +11,6 @@ public class CardManager : MonoBehaviour
     ARTrackedImageManager _trackedImageManager;
     Dictionary<string, Card> _deck;
     Dictionary<string, Card> _onTable;
-    BlackJackHand _hand;
     CardCounter _cardCounter;
     Card _dealerUp;
     Card _handAnchor;
@@ -37,37 +36,27 @@ public class CardManager : MonoBehaviour
         _deck = new Dictionary<string, Card>();
         _onTable = new Dictionary<string, Card>();
         _cardCounter = CardCounter.getCardCounter();
-        _hand = BlackJackHand.getBlackJackHand();
         _mainCamera = Camera.main;
     }
-
     void Start()
     {
-        for (int i = 0; i < 13; i++)
-        {
-            for (int j = 0; j < 4; j++)
-            {
-                Card newCard = new Card((cardRank)i, (cardSuit)j, i * 4 + j );
-                _deck.Add(newCard.CardName, newCard);
-            }
-        }
+        BuildDeck();
     }
 
     void OnEnable()
     {
         _trackedImageManager.trackedImagesChanged += ImageChanged;
     }
-
     void OnDisable()
     {
         _trackedImageManager.trackedImagesChanged -= ImageChanged;
     }
-
     void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         foreach(ARTrackedImage i in eventArgs.added)
         {
             ManageTable(i);
+            
         }
         foreach (ARTrackedImage i in eventArgs.updated)
         {
@@ -78,7 +67,6 @@ public class CardManager : MonoBehaviour
             Remove(i);
         }
     }
-
     void ManageTable(ARTrackedImage i)
     {
         string key = i.referenceImage.name;
@@ -108,12 +96,10 @@ public class CardManager : MonoBehaviour
 
         SetMinDepth();
         SetMaxDepth();
-        HandValueDisplay.text = _hand.HandValue.ToString();
         ResetOnTable();
         ResetHand();
         SetBasicStrategy();
-        TrueCountDisplay.text = _cardCounter.TrueCount.ToString();
-        SetBettingStrategy();
+        UpdateDisplay();
     }
     void ResetOnTable()
     {
@@ -133,19 +119,19 @@ public class CardManager : MonoBehaviour
     }
     void ResetHand()
     {
-        _hand.cards.Clear();
+        _cardCounter.Hand.cards.Clear();
         foreach (KeyValuePair<string, Card> c in _onTable)
         {
             if (Vector3.Distance(_handAnchor.pos, c.Value.pos) < 0.15 && !c.Value.Equals(_dealerUp))
             {
-                _hand.cards.Add(c.Value.CardName, c.Value);
+                _cardCounter.Hand.cards.Add(c.Value.CardName, c.Value);
             }
         }
         foreach (Transform child in HandDisplay.transform)
         {
             Destroy(child.gameObject);
         }
-        foreach (KeyValuePair<string, Card> c in _hand.cards)
+        foreach (KeyValuePair<string, Card> c in _cardCounter.Hand.cards)
         {
             AddImage(HandDisplay, c.Value.CardId);
         }
@@ -210,7 +196,7 @@ public class CardManager : MonoBehaviour
     {
         if (_dealerUp != null)
         {
-            tactic t = _hand.GetStrategy(_dealerUp.CardValue);
+            tactic t = _cardCounter.Hand.GetStrategy(_dealerUp.CardValue);
             StrategyDisplay.text = t.ToString();
             switch (t)
             {
@@ -224,7 +210,7 @@ public class CardManager : MonoBehaviour
                 case tactic.Hit:
                     StrategyDisplay.color = Color.yellow;
                     break;
-                case tactic.DoubleDown:
+                case tactic.Double:
                     StrategyDisplay.color = Color.blue;
                     break;
                 case tactic.Split:
@@ -235,8 +221,11 @@ public class CardManager : MonoBehaviour
             }
         }
     }
-    void SetBettingStrategy()
+    void UpdateDisplay()
     {
+        HandValueDisplay.text = _cardCounter.Hand.HandValue.ToString();
+        TrueCountDisplay.text = _cardCounter.TrueCount.ToString();
+
         bettingStrategy betStrategy = _cardCounter.GetStrategy();
         BettingStrategyDisplay.text = betStrategy.ToString();
         switch (betStrategy)
@@ -256,7 +245,17 @@ public class CardManager : MonoBehaviour
             default: break;
         }
     }
-
+    void BuildDeck()
+    {
+        for (int i = 0; i < 13; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                Card newCard = new Card((cardRank)i, (cardSuit)j, i * 4 + j);
+                _deck.Add(newCard.CardName, newCard);
+            }
+        }
+    }
     void Remove(ARTrackedImage i)
     {
         string key = i.referenceImage.name;
@@ -266,5 +265,14 @@ public class CardManager : MonoBehaviour
         {
             _onTable.Remove(key);
         }
+    }
+    public void ResetCounter()
+    {
+        _cardCounter.Reset();
+        foreach(Image i in Icons){
+            i.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        }
+        TrueCountDisplay.text = _cardCounter.TrueCount.ToString();
+        UpdateDisplay();
     }
 }
