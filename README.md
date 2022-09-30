@@ -25,7 +25,7 @@ AR functionality.
     * Cards 2-6 increase the count
     * Cards 7-9 do not affect the count
     * Cards 10 and Face Cards decrease the count
-    * Count is adjusted per 52 cards reamining in the deck.
+    * Count is adjusted as per ratio of 52 cards reamining in the deck.
 
 * Bet Strategy
     * Count < 1 : Bet Minimum.
