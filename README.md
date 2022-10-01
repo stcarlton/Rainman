@@ -1,5 +1,5 @@
 # Rainman
-An AR Card Counting app for IOS
+An AR Card Counting app for iOS.
 
 ## Description
 Rainman is an augmented reality tool that suggests blackjack betting
