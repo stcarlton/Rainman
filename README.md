@@ -23,26 +23,26 @@ AR functionality.
     * Cards 2-6 increase the count
     * Cards 7-9 do not affect the count
     * Cards 10 and Face Cards decrease the count
-    * Count is adjusted as per ratio of 52 cards reamining in the deck.
+    * Count is adjusted as per ratio of 52 cards reamining in the deck
 
 * Bet Strategy
-    * Count < 1 : Bet Minimum.
-    * Count < 3 : Bet Big.
-    * Count >= 3 : Bet Maximum.
+    * Count < 1 : Bet Minimum
+    * Count < 3 : Bet Big
+    * Count >= 3 : Bet Maximum
 
 ### Lower Left
-* Display of Dealer's Assumed Cards.
-* Display of Your Assumed Hand.
-* Your Hand Value.
+* Display of Dealer's Assumed Cards
+* Display of Your Assumed Hand
+* Your Hand Value
 
 ### Upper Right
-* Display of all cards in the deck.
-* Cards are greyed out once recognized.
+* Display of all cards in the deck
+* Cards are greyed out once recognized
 
 ### Lower Right
 * Suggested move
-* Default is Basic Strategy.
-* Adjusted Dynamically based on cards that have been seen.
+* Default is Basic Strategy
+* Adjusted Dynamically based on cards that have been seen
 
 ### Lower Center
-* Button to reset counter.
+* Button to reset counter
