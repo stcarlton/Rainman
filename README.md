@@ -14,10 +14,8 @@ Rainman is an iOS app developed with Unity game engine. Source code
 is C# and follows MVC design pattern. ARKit package is utilized for
 AR functionality.
 
-## Installation
-
-
 ## Legend
+![image](https://user-images.githubusercontent.com/58635162/193425318-e22f0f5d-3f62-45bb-ba63-29ff02e43726.png)
 
 ### Top Left
 * Count
